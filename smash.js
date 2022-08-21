@@ -10,4 +10,10 @@ function smash (words) {
     console.log(final_word)
  }
 
- smash(['hello', 'world'])
+//  smash(['hello', 'world'])
+
+function smash2(words) {
+    console.log(words.join(" "))
+    return words.join(" ")
+
+}
